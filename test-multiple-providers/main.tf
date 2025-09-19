@@ -6,7 +6,7 @@ terraform {
     }
     azuread = {
       source  = "hashicorp/azuread"
-      version = "~> 2.45.0"  # Test if both providers get updated
+      version = "~> 3.5.0"  # Test if both providers get updated
     }
   }
 }
