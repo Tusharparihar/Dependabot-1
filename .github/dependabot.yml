@@ -1,9 +1,9 @@
-# version: 2
-# updates:
-#   - package-ecosystem: "terraform"
-#     directory: "/test-exact-version"
-#     schedule:
-#       interval: "daily"
+version: 2
+updates:
+  - package-ecosystem: "terraform"
+    directory: "/test-exact-version"
+    schedule:
+      interval: "daily"
     
   - package-ecosystem: "terraform"
     directory: "/test-pessimistic-version"
