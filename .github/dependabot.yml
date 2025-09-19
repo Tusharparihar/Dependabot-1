@@ -1,0 +1,41 @@
+version: 2
+updates:
+  - package-ecosystem: "terraform"
+    directory: "/test-exact-version"
+    schedule:
+      interval: "daily"
+    
+  - package-ecosystem: "terraform"
+    directory: "/test-pessimistic-version"
+    schedule:
+      interval: "daily"
+    
+  - package-ecosystem: "terraform"
+    directory: "/test-pessimistic-minor"
+    schedule:
+      interval: "daily"
+    
+  - package-ecosystem: "terraform"
+    directory: "/test-range-version"
+    schedule:
+      interval: "daily"
+    
+  - package-ecosystem: "terraform"
+    directory: "/test-gte-version"
+    schedule:
+      interval: "daily"
+    
+  - package-ecosystem: "terraform"
+    directory: "/test-no-constraint"
+    schedule:
+      interval: "daily"
+    
+  - package-ecosystem: "terraform"
+    directory: "/test-required-version"
+    schedule:
+      interval: "daily"
+    
+  - package-ecosystem: "terraform"
+    directory: "/test-multiple-providers"
+    schedule:
+      interval: "daily"
