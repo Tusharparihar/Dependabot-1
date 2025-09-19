@@ -2,7 +2,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "~> 3.80"  # Allow minor updates (3.80.x → 3.81.x, 3.82.x, etc.)
+      version = "~> 4.45"  # Allow minor updates (3.80.x → 3.81.x, 3.82.x, etc.)
     }
   }
 }
