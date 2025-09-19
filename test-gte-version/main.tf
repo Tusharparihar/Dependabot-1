@@ -2,7 +2,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = ">= 3.80.0"  # Any version 3.80.0 or higher
+      version = "~> 3.80.0"  # Allow patch updates only (3.80.x)
     }
   }
 }
@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "test" {
-  name     = "rg-dependabot-test-gte"
+  name     = "rg-dependabot-test-pessimistic"
   location = "East US"
 }
 
