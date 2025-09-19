@@ -2,7 +2,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "=3.80.0"  # Exact version - should Dependabot update this?
+      version = "4.45.0"  # Exact version - should Dependabot update this?
     }
   }
 }
